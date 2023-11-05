@@ -33,6 +33,18 @@ export default function Media() {
           />
         </Link>
         <Link
+          href="https://raenacohen.bandcamp.com/community"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/icons8-bandcamp-50.png"
+            width={40}
+            height={40}
+            alt="soundcloud logo"
+          />
+        </Link>
+        <Link
           href="https://www.facebook.com/ladyraeartist/"
           target="_blank"
           rel="noopener noreferrer"
