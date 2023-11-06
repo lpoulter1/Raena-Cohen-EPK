@@ -6,18 +6,9 @@ export default function Home() {
   return (
     <>
       <body className={styles.body}>
-
-        {/* <nav className={styles.navbar}> */}
-      
-            <Navbar />
-        
-        {/* </nav> */}
+        <Navbar />
 
         <main className={styles.main}>
-          {/* <div className={styles.titlediv}>
-            <h1 className={styles.title}>Raena </h1>
-            <h1 className={styles.title}> Cohen</h1>
-          </div> */}
           <div className={styles.music}>
             <NewSingle
               image={"/275300387_507048927582161_3019485194852510888_n.jpg"}

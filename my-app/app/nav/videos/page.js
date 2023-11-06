@@ -5,13 +5,12 @@ export default function Videos() {
   return (
     <>
       <div className={styles.topbar}>
-        <div className={styles.nav}>
-          <Navbar />
-        </div>
+        <Navbar />
       </div>
-
-      <div className={styles.description}>
-        <p>This will download a PDF EPK</p>
+      <div className={styles.content}>
+        <main className={styles.text}>
+          <p>A selection of vidoes....</p>
+        </main>
       </div>
     </>
   );
