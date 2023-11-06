@@ -1,5 +1,5 @@
 import styles from "../../page.module.css";
-import Navbar from "../nav/navbar.js";
+import Navbar from "../navbar.js";
 
 export default function Contact() {
   return (
