@@ -1,5 +1,5 @@
-import Media from "./media/media";
-import Header from "./header/header";
+import Media from "./media/media.js";
+import Header from "./header/header.js";
 import styles from "../page.module.css";
 
 export default function Navbar() {
