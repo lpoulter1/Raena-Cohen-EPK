@@ -1,16 +1,12 @@
 import styles from "../../page.module.css";
-import Header from "../header/header.js";
-import Media from "../../components/media/media.js";
+import Navbar from "../navbar.js";
 
 export default function Videos() {
   return (
     <>
       <div className={styles.topbar}>
         <div className={styles.nav}>
-          <Header />
-        </div>
-        <div className={styles.media}>
-          <Media />
+          <Navbar />
         </div>
       </div>
 
