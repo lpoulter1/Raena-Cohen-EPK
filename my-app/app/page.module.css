@@ -56,13 +56,14 @@
   height: auto;
   align-items: center;
 }
-.content{
+.content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
 }
+
 .text {
   font-size: 1vw;
   padding: 1rem;
