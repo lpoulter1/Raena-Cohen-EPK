@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import NewSingle from "./components/new-single/new-single";
-import Navbar from "./nav/navbar";
+import Navbar from "./nav/navbar.js"
 
 export default function Home() {
   return (

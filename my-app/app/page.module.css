@@ -83,6 +83,7 @@
   .card_socials:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    /* outline: 1px solid rgba(var(--card-border-rgb), 0.15); */
   }
 
   .card:hover span,
@@ -133,9 +134,6 @@
     font-size: 3vw;
   }
 
-  .text {
-    font-size: 0.8rem;
-  }
 
   /* TO CHECK AND EDIT ACCORDINGLY */
   /* .text p,
