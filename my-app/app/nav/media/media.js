@@ -13,7 +13,6 @@ export default function Media() {
         >
           <Image
             src="/icons8-spotify-50.png"
-            // src="/icons8-spotify.gif"
             width={40}
             height={40}
             alt="spotify logo"
