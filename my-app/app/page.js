@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import NewSingle from "./components/new-single/new-single";
-import Navbar from "./nav/navbar.js"
+import Navbar from "./nav/navbar.js";
 
 export default function Home() {
   return (
@@ -11,34 +11,35 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.music}>
             <NewSingle
-              image={"/275300387_507048927582161_3019485194852510888_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
+              image={"/Weighs down cover art-1500(upsized).jpg"}
+              linktree={"https://tr.ee/IZ_r-Ckjd8"}
+              alt={"Weighs Down cover art"}
             />
             <NewSingle
-              image={"/316027264_150873391019569_7052134185861972073_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
+              image={"/See the Light cover art-1500.jpg"}
+              linktree={"https://tr.ee/EIYp7t9K3t"}
+              alt={"See The Light cover art"}
             />
             <NewSingle
-              image={"/374613322_290312697075637_434127286051300788_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
+              image={"/Sweetest Fiction RMX-1500.JPG"}
+              linktree={
+                "https://soundcloud.com/ladyraeartist/lady-rae-x-c3b-sweetest-fiction-remix"
+              }
+              alt={"Sweetest Fiction Remix cover art"}
             />
             <NewSingle
-              image={"/375175520_290311167075790_9160990543390696182_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
+              image={"/Sweetest Fiction cover-1500.jpg"}
+              linktree={
+                "https://soundcloud.com/ladyraeartist/sweetest-fiction-oration-ep "
+              }
+              alt={"Sweetest-Fiction-cover art"}
             />
             <NewSingle
-              image={"/376414746_294087956698111_3908146597500451426_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
-            />
-            <NewSingle
-              image={"/275300387_507048927582161_3019485194852510888_n.jpg"}
-              linktree={"https://linktr.ee"}
-              alt={"new single art cover"}
+              image={"/Freedom cover-1500.jpg"}
+              linktree={
+                "https://soundcloud.com/ladyraeartist/lady-rae-ft-oration-freedom"
+              }
+              alt={"Freedom single art cover"}
             />
           </div>
         </main>

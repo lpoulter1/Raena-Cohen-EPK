@@ -9,8 +9,8 @@ export default function NewSingle({ image, linktree, alt }) {
         <a href={linktree} target="_blank" rel="noopener noreferrer">
           <Image
             src={image}
-            width={600}
-            height={600}
+            width={800}
+            height={800}
             alt={alt}
             layout="responsive"
           />
