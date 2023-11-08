@@ -5,6 +5,7 @@
   align-items: center;
   /* padding: 6rem; */
   min-height: 100vh;
+  padding: 1rem;
 }
 
 .banner {
@@ -26,7 +27,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin-top: 1rem;
   width: 100%;
   height: auto;
   position: relative;
@@ -139,7 +140,6 @@
   }
 
   .single {
-    margin: 1rem;
     max-width: 100%;
   }
   .card {
