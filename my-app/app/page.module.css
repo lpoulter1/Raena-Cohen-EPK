@@ -30,9 +30,16 @@
   width: 100%;
   height: auto;
   position: relative;
+  transition: transform 450ms ease-in-out;
   /* dont need max width and height because the 800 x 800 ratio is set in the Newsingle compnent */
   /* max-width: 1000px;
   max-height: 1000px;  */
+}
+
+.single:hover {
+  transition: transform 125ms;
+  transform: scale(1.05);
+  /* transform: translateY(-10px); */
 }
 
 .card {
